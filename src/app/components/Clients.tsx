@@ -43,7 +43,7 @@ return (
                 Clientes
                 </h3>
                 <p className="text-blue-400 mt-5 text-center">
-                Veja alguns empresas que já transformaram sua presença online com as soluções da SAcorp
+                Veja alguns empresas que já transformaram sua presença online com as soluções da SA Corp
                 </p>
             </div>
 
