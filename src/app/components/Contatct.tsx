@@ -78,7 +78,7 @@ const FormatedData = {
 
 return (
 
-<div id="contact" className="flex flex-col justify-center items-center lg:py-20 py-10">
+<div id="contact" className="bg-gradient-to-b from-gray-300 to-white flex flex-col justify-center items-center lg:py-20 py-10">
 <div className='md:justify-between flex flex-col justify-items-center md:max-w-6xl w-full gap-10'>
 
     <div className='flex items-center justify-center'>
