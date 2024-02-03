@@ -36,19 +36,19 @@ export function Portifolio() {
 
 return (
 
-<section className="bg-gradient-to-b from-gray-300/50 to-white flex justify-center items-center pb-36">
+<section className="bg-gradient-to-b from-gray-300/50 to-white flex justify-center items-center lg:pb-36 py-10 lg:py-0 px-4">
     <div className='md:justify-between flex flex-col justify-items-center md:max-w-6xl w-full relative'>
 
-<div className="flex items-center justify-center">
-<div className="w-1/2 flex flex-col items-center justify-center relative">
+<div className="lg:flex grid items-center justify-center gap-5">
+<div className="lg:w-1/2 flex flex-col items-center justify-center lg:relative">
             <picture>
-        <img src="./Component3.png" alt="" className="relative bottom-28" />
+        <img src="./Component3.png" alt="" className="lg:relative lg:bottom-28" />
 
       </picture>
 
             </div>
-<div className="w-1/2 flex flex-col items-start justify-center">
-                <h3 className="text-blue-400 lg:text-left font-light lg:text-5xl text-3xl uppercase">
+<div className="lg:w-1/2 flex flex-col lg:items-start justify-center">
+                <h3 className="text-blue-400 lg:text-left text-center font-light lg:text-5xl text-3xl uppercase">
                 Sites para diversos segmentos
                 </h3>
                 <p className=" mt-5">
@@ -74,12 +74,12 @@ return (
             </div>
 
 </div>
-<div className="flex items-center justify-between relative bottom-10">
+<div className="lg:flex items-center grid justify-center lg:justify-between lg:relative lg:bottom-10">
   
 
 
 </div>
-<div className="flex items-center justify-center gap-5">
+<div className="flex items-center justify-center gap-3 mt-5">
                   <picture>
         <img src="./icon-processo.svg" alt="" className="" />
 
@@ -87,7 +87,7 @@ return (
       <span>Processo de desenvolvimento de ponta a ponta ou etapa específica </span>
                   </div>
             
-<div className="flex items-center justify-between py-5">
+<div className="lg:flex grid grid-cols-2 mt-5 gap-5 items-center lg:justify-between justify-center py-5">
 
 <div className="relative flex items-center justify-center">
 <picture>
@@ -168,7 +168,7 @@ return (
 </div>
 
 
-<div className="flex items-center justify-center py-8">
+<div className="flex items-center justify-center lg:py-8 py-5">
 <Swiper 
         loop={true}
         slidesPerView={slidePreview}

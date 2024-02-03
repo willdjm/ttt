@@ -25,22 +25,22 @@ return (
 </div>
 <div className="lg:flex items-center lg:justify-between justify-center lg:relative gap-5 grid grid-cols-2 lg:bottom-10 mt-5">
   
-  <div className="border border-black rounded-full w-44 h-44 flex items-center justify-center">
+  <div className="border border-black rounded-full lg:w-44 w-36 lg:h-44 h-36 flex items-center justify-center">
 <span>Embarcado</span>
   </div>
-  <div className="border border-black rounded-full w-44 h-44 flex items-center justify-center">
+  <div className="border border-black rounded-full lg:w-44 w-36 lg:h-44 h-36 flex items-center justify-center">
 <span>Web App</span>
   </div>
-  <div className="border border-black rounded-full w-44 h-44 flex items-center justify-center">
+  <div className="border border-black rounded-full lg:w-44 w-36 lg:h-44 h-36 flex items-center justify-center">
 <span>Híbrido</span>
   </div>
-  <div className="border border-black rounded-full w-44 h-44 flex items-center justify-center">
+  <div className="border border-black rounded-full lg:w-44 w-36 lg:h-44 h-36 flex items-center justify-center">
   <picture>
         <img src="./img-apple-store.png" alt="" className="" />
 
       </picture>
   </div>
-  <div className="border border-black rounded-full w-44 h-44 flex items-center justify-center">
+  <div className="border border-black rounded-full lg:w-44 w-36 lg:h-44 h-36 flex items-center justify-center">
   <picture>
         <img src="./img-app-store.png" alt="" className="" />
 
