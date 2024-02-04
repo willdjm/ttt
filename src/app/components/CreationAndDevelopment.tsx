@@ -23,41 +23,41 @@ return (
 <div className="grid lg:grid-cols-5 grid-cols-2 items-center justify-center lg:mt-20 mt-5">
 <div className="flex flex-col items-center justify-center gap-5">
                   <picture>
-        <img src="./icon-desktop.svg" alt="" className="" />
+        <img src="./icon-desktop.svg" alt="" className="flex items-center justify-center" />
 
       </picture>
-      <span>Desktop e Mobile</span>
+      <span className="lg:max-w-24 text-center">Desktop e Mobile</span>
                   </div>
 
                   <div className="flex flex-col items-center justify-center gap-5">
                   <picture>
-        <img src="./icon-gerenciamentocms.svg" alt="" className="" />
+        <img src="./icon-gerenciamentocms.svg" alt="" className="flex items-center justify-center" />
 
       </picture>
-      <span>Gerenciamento CMS</span>
+      <span className="lg:max-w-24 text-center">Gerenciamento CMS</span>
                   </div>
 
                   <div className="flex flex-col items-center justify-center gap-5 lg:col-auto col-span-2">
                   <picture>
-        <img src="./img-criacao.png" alt="" className="" />
+        <img src="./img-criacao.png" alt="" className="flex items-center justify-center" />
 
       </picture>
                   </div>
 
                   <div className="flex flex-col items-center justify-center gap-5">
                   <picture>
-        <img src="./icon-mercadologias.svg" alt="" className="" />
+        <img src="./icon-sitespersonalizados.svg" alt="" className="flex items-center justify-center" />
 
       </picture>
-      <span>Mercadológicos</span>
+      <span className="lg:max-w-24 text-center">Sites personalizados</span>
                   </div>
 
                   <div className="flex flex-col items-center justify-center gap-5">
                   <picture>
-        <img src="./icon-landpages.svg" alt="" className="" />
+        <img src="./icon-templates.svg" alt="" className="flex items-center justify-center" />
 
       </picture>
-      <span>Landpages</span>
+      <span className="lg:max-w-24 text-center">Templates white label</span>
                   </div>
             
 </div>
@@ -69,82 +69,82 @@ return (
 <div className="grid lg:grid-cols-5 grid-cols-2 items-center justify-center gap-5 lg:gap-16 lg:mt-20 mt-5">
 <div className="flex flex-col items-center justify-center gap-5">
                   <picture>
-        <img src="./icon-imobiliaria.svg" alt="" className="" />
+        <img src="./icon-imobiliaria.svg" alt="" className="flex items-center justify-center" />
 
       </picture>
-      <span>Imobiliários</span>
+      <span className="text-center">Imobiliários</span>
                   </div>
 
                   <div className="flex flex-col items-center justify-center gap-5">
                   <picture>
-        <img src="./icon-paginaconversao.svg" alt="" className="" />
+        <img src="./icon-paginaconversao.svg" alt="" className="flex items-center justify-center" />
 
       </picture>
-      <span>Páginas de conversão</span>
+      <span className="text-center">Páginas de conversão</span>
                   </div>
 
                   <div className="flex flex-col items-center justify-center gap-5">
                   <picture>
-        <img src="./icon-institucionais.svg" alt="" className="" />
+        <img src="./icon-institucionais.svg" alt="" className="flex items-center justify-center" />
 
       </picture>
-      <span>Institucionais</span>
+      <span className="text-center">Institucionais</span>
                   </div>
 
                   <div className="flex flex-col items-center justify-center gap-5">
                   <picture>
-        <img src="./icon-mercadologias.svg" alt="" className="" />
+        <img src="./icon-mercadologias.svg" alt="" className="flex items-center justify-center" />
 
       </picture>
-      <span>Mercadológicos</span>
+      <span className="text-center">Mercadológicos</span>
                   </div>
 
                   <div className="flex flex-col items-center justify-center gap-5">
                   <picture>
-        <img src="./icon-landpages.svg" alt="" className="" />
+        <img src="./icon-landpages.svg" alt="" className="flex items-center justify-center" />
 
       </picture>
-      <span>Landpages</span>
+      <span className="text-center">Landpages</span>
                   </div>
                   
                   <div className="flex flex-col items-center justify-center gap-5">
                   <picture>
-        <img src="./icon-hotsites.svg" alt="" className="" />
+        <img src="./icon-hotsites.svg" alt="" className="flex items-center justify-center" />
 
       </picture>
-      <span>Hotsites</span>
+      <span className="text-center">Hotsites</span>
                   </div>
 
                   <div className="flex flex-col items-center justify-center gap-5">
                   <picture>
-        <img src="./icon-promocionais.svg" alt="" className="" />
+        <img src="./icon-promocionais.svg" alt="" className="flex items-center justify-center" />
 
       </picture>
-      <span>Promocionais</span>
+      <span className="text-center">Promocionais</span>
                   </div>
 
                   <div className="flex flex-col items-center justify-center gap-5">
                   <picture>
-        <img src="./icon-lojas.svg" alt="" className="" />
+        <img src="./icon-lojas.svg" alt="" className="flex items-center justify-center" />
 
       </picture>
-      <span>Lojas virtuais</span>
+      <span className="text-center">Lojas virtuais</span>
                   </div>
 
                   <div className="flex flex-col items-center justify-center gap-5">
                   <picture>
-        <img src="./icon-blogs.svg" alt="" className="" />
+        <img src="./icon-blogs.svg" alt="" className="flex items-center justify-center" />
 
       </picture>
-      <span>Blogs</span>
+      <span className="text-center">Blogs</span>
                   </div>
 
                   <div className="flex flex-col items-center justify-center gap-5">
                   <picture>
-        <img src="./icon-sitespessoais.svg" alt="" className="" />
+        <img src="./icon-sitespessoais.svg" alt="" className="flex items-center justify-center" />
 
       </picture>
-      <span>Sites pessoais</span>
+      <span className="text-center">Sites pessoais</span>
                   </div>
 </div>
 
