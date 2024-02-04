@@ -4,8 +4,8 @@ export function CreationAndDevelopment() {
 
 return (
 
-<section className="bg-gradient-to-b from-gray-300/50 to-white flex justify-center items-center lg:pb-36 py-10 lg:py-0 px-4">
-    <div className='md:justify-between flex flex-col justify-items-center md:max-w-6xl w-full relative'>
+<section className="bg-gradient-to-b from-blue-200/50 to-white flex justify-center items-center lg:pb-36 py-10 lg:py-0 px-4">
+    <div className='md:justify-between flex flex-col justify-items-center md:max-w-6xl w-full relative lg:mt-20'>
 
 <div className="flex flex-col items-center justify-center gap-14">
                 <h3 className="text-blue-400 text-center font-light lg:text-5xl text-3xl uppercase">
@@ -37,7 +37,7 @@ return (
       <span>Gerenciamento CMS</span>
                   </div>
 
-                  <div className="flex flex-col items-center justify-center gap-5 col-span-2">
+                  <div className="flex flex-col items-center justify-center gap-5 lg:col-auto col-span-2">
                   <picture>
         <img src="./img-criacao.png" alt="" className="" />
 
