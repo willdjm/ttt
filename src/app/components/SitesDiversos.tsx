@@ -41,9 +41,13 @@ return (
 
     <div className="lg:flex grid items-center justify-center gap-5">
       <div className="lg:w-1/2 flex flex-col items-center justify-center lg:relative">
-        <picture>
-          <img src="./Component3.png" alt="" className="lg:relative lg:bottom-20" />
-        </picture>
+      <video
+    className="lg:relative lg:bottom-20 rounded-full"
+    src="./video-sites-diversos.mp4"
+    autoPlay
+    muted
+    loop
+  />
       </div>
 
       <div className="lg:w-1/2 flex flex-col lg:items-start lg:gap-6 gap-4 justify-center">

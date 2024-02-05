@@ -6,7 +6,7 @@ export function SitesImobiliarias() {
 
 return (
 <>
-<section className="bg-gradient-to-b from-gray-300 to-white flex justify-center items-center py-10 lg:py-0 px-4">
+<section className="bg-gradient-to-b from-gray-300 to-white flex justify-center items-center py-6 lg:py-0 px-4">
 <div className='md:justify-between flex flex-col justify-items-center md:max-w-6xl w-full relative'>
 
 <div className="lg:flex grid items-center justify-center gap-5">
@@ -19,19 +19,23 @@ sites imobiliários
 Ninguém está mais apto a garantir a melhor interface, programação e integração com CRMs, do que uma equipe pioneira no desenvolvimento de sistemas de gestão imobiliária. 
 </p>
 </div>
-<div className="lg:w-1/2 flex flex-col items-center justify-center lg:relative">
-<picture>
-<img src="./Component3.png" alt="" className="lg:relative lg:bottom-20" />
-</picture>
+<div className="lg:w-1/2 flex items-center justify-center rounded-full lg:relative">
+<video
+    className="lg:relative lg:bottom-20 rounded-full"
+    src="./video-sites-imobiliarios.mp4"
+    autoPlay
+    muted
+    loop
+  />
 </div>
 </div>
 </div>
 </section>
 
-<section className="flex justify-center items-center lg:pb-28 px-4">
+<section className="flex justify-center items-center lg:pb-28 px-4 lg:relative lg:bottom-20">
 <div className='md:justify-between flex flex-col justify-items-center md:max-w-6xl w-full'>
 
-<div className="lg:flex grid items-center lg:justify-between justify-center w-full lg:relative lg:bottom-16">
+<div className="lg:flex grid items-center lg:justify-between justify-center w-full">
 <div className="flex flex-col items-center justify-center lg:items-start  gap-3 mt-5">
 <picture>
 <img src="./icon-integracao.svg" alt="" className="" />
@@ -120,7 +124,7 @@ Formulários de captação
 </div> 
 </div>
 
-<div className="flex flex-col items-center justify-between py-5 w-full">
+<div className="flex flex-col items-center justify-between lg:py-10 py-5 w-full">
 <div className="w-full items-center flex ">
 <span className="flex flex-1 items-center w-full bg-gray-300 h-0.5"/>
 <span className="text-xl flex items-center justify-center w-max uppercase px-5 text-center lg:text-left">Portfólio de sites imobiliários</span>
