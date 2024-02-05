@@ -1,6 +1,5 @@
 "use client"
 
-import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 import { BiMenu } from 'react-icons/bi';
@@ -71,8 +70,8 @@ export function NavBar() {
                   </Link>
                 </li>
                 <li className="block lg:hidden text-xl py-2 md:px-6 text-center border-b-2 md:border-b-0 border-blue-400 hover:text-blue-400 md:hover:bg-transparent">
-                  <Link href="#projects" onClick={() => setNavbar(!navbar)}>
-                  (11) 99999-9999
+                  <Link href="#projects" className='flex items-center justify-center gap-1' onClick={() => setNavbar(!navbar)}>
+                  <FaWhatsapp className='text-green-500 cursor-pointer hover:text-base' size={25} /> (11) 99999-9999
                   </Link>
                 </li>
               </ul>
