@@ -28,7 +28,7 @@ Ninguém está mais apto a garantir a melhor interface, programação e integra�
 </div>
 </section>
 
-<section className="flex justify-center items-center lg:pb-36 px-4">
+<section className="flex justify-center items-center lg:pb-28 px-4">
 <div className='md:justify-between flex flex-col justify-items-center md:max-w-6xl w-full'>
 
 <div className="lg:flex grid items-center lg:justify-between justify-center w-full lg:relative lg:bottom-16">
