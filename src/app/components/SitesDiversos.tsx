@@ -10,7 +10,7 @@ import Link from "next/link";
 
 register();
 
-export function Portifolio() {
+export function SitesDiversos() {
 
 const [slidePreview, setSlidePreview] = useState(4)
 
@@ -54,18 +54,18 @@ return (
           A SAcorp cria interface e desenvolve para todos os perfis de clientes e necessidades.
         </p>
 
-        <div className="flex items-center justify-center lg:gap-7">
+        <div className="flex items-center justify-center lg:gap-7 gap-4">
           <div className="flex items-center justify-center gap-3">
             <picture>
               <img src="./icon-normas.svg" alt="" className="" />
             </picture>
-            <span>Normas padrão e boas práticas </span>
+            <span className="text-blue-400">Normas padrão e boas práticas </span>
           </div>
           <div className="flex items-center justify-center gap-3">
             <picture>
               <img src="./icon-planos.svg" alt="" className="" />
             </picture>
-            <span>Planos de manutenção mensal </span>
+            <span className="text-blue-400">Planos de manutenção mensal </span>
           </div>
         </div>
       </div>
@@ -73,14 +73,14 @@ return (
   </div>
 </section>
 
-<section className="flex justify-center items-center lg:pb-36 px-4">
+<section className="flex justify-center items-center lg:pb-28 px-4">
   <div className='md:justify-between flex flex-col justify-items-center md:max-w-6xl w-full'>
 
     <div className="flex items-center justify-center gap-3">
       <picture>
         <img src="./icon-processo.svg" alt="" className="" />
       </picture>
-      <span>Processo de desenvolvimento de ponta a ponta ou etapa específica </span>
+      <span className="text-blue-400">Processo de desenvolvimento de ponta a ponta ou etapa específica </span>
     </div>
 
     <div className="lg:flex grid grid-cols-2 mt-5 gap-5 items-center lg:justify-between justify-center py-5">

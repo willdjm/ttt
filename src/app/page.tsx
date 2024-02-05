@@ -3,10 +3,10 @@ import { Clients } from "./components/Clients";
 import { Contact } from "./components/Contatct";
 import { Footer } from "./components/Footer";
 import { Apps } from "./components/Apps";
-import { Portifolio } from "./components/Portifolio";
 import { SitesImobiliarias } from "./components/SitesImobiliarias";
 import { CreationAndDevelopment } from "./components/CreationAndDevelopment";
 import { NavBar } from "./components/NavBar";
+import { SitesDiversos } from "./components/SitesDiversos";
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
 
   <CreationAndDevelopment />
   <SitesImobiliarias />
-  <Portifolio />
+  <SitesDiversos />
   <Apps />
   <Clients />
 <Contact />
