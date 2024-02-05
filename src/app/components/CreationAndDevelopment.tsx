@@ -37,10 +37,14 @@ return (
             <span className="lg:max-w-32 text-center text-blue-400">Gerenciamento CMS</span>
         </div>
 
-        <div className="flex flex-col items-center justify-center gap-5 lg:col-auto col-span-2">
-            <picture>
-                <img src="./img-criacao.png" alt="" className="flex items-center justify-center" />
-            </picture>
+        <div className="flex flex-col items-center justify-center gap-5 lg:col-auto col-span-2 py-10">
+        <video
+    className=""
+    src="./devices.mp4"
+    autoPlay
+    muted
+    loop
+  />
         </div>
 
         <div className="flex flex-col items-center justify-center gap-3">
